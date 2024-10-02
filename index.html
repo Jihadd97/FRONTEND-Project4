@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project#4</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+
+    <header class="bg-dark p-3">
+        <div class="header-left">
+            <a href="index.html">Shopping Cart</a>
+        </div>
+        <div class="header-center mt-2">
+            <ul id="user_info">
+                <span id="user">Welcome,Username</span>
+            </ul>
+        </div>
+
+        <div class="header-right">
+            <div class="header-cart">
+                <a href="cart.html" id="cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <sup><span id="cart-counter">0</span></sup>
+                </a>
+            </div>
+            <a href="#" id="logout">Logout</a>
+        </div>
+    </header>
+    <div id="links">
+        <a href="login.html" class="text-white mr-3">Login</a>
+        <a href="register.html" class="text-white">Register</a>
+    </div>
+
+    <!-- Search Filters -->
+    <section class="container my-4 ">
+        <div class="row">
+            <div class="col-md-3">
+                <select id="searchFilter" class="form-select">
+                    <option value="name">Search by Name</option>
+                    <option value="category">Search by Category</option>
+                </select>
+            </div>
+            <div class="col-md-9">
+                <input type="text" id="searchInput" class="form-control" placeholder="Search for products...">
+            </div>
+        </div>
+    </section>
+    <!-- Product List -->
+    <section class="container my-4">
+        <div class="row g-3" id="product-list">
+            <!-- Products will be dynamically inserted here by JavaScript -->
+        </div>
+    </section>
+ 
+    <script src="js/main.js"></script>
+    <script src="js/user.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/register.js"></script>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
