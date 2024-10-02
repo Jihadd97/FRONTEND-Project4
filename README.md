@@ -1,1 +1,2 @@
 # FRONTEND-Project4
+The Shopping Cart web application provides a seamless shopping experience where users can browse products, add items to their cart, and manage purchases. It features dynamic product listing with search and filtering capabilities, animated "Add to Cart" buttons, and persistent cart management using localStorage. The project is built using HTML5 for structure, CSS3 for styling and animations, and JavaScript (ES6+) for dynamic interactions. Additionally, Bootstrap ensures responsive design across devices.
